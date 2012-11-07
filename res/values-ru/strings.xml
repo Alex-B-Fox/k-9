@@ -12,7 +12,7 @@
     <string name="unread_widget_label">K-9 Непрочитанное</string>
 
     <string name="remote_control_label">Дистанционное управление K-9 Mail</string>
-    <string name="remote_control_desc">Позволяет этому приложению управлеть деятельностью и настройками K-9 Mail.</string>
+    <string name="remote_control_desc">Позволяет этому приложению управлять активностью и настройками K-9 Mail.</string>
 
 
     <!-- Used in the about dialog -->
@@ -33,13 +33,13 @@
 \n * СК Себе;
 \n * подписки к папкам;
 \n * синхронизация всех папок;
-\n * конфигурация возвратного адреса;
+\n * настройка обратного адреса;
 \n * сочетания клавиш на аппаратной клавиатуре;
 \n * лучшая поддержка для IMAP;
-\n * сохранение вложений на SD карту;
+\n * сохранение вложений на SD-карту;
 \n * очистка Корзины;
 \n * сортировка сообщений;
-\n * … и более.
+\n * … и другие.
 \n
 \nОбратите внимание, что К-9 не поддерживает большинство бесплатных адресов Hotmail и, как большинство других почтовых программ, имеет некоторые причуды при общении с Microsoft Exchange.
 \n
@@ -71,7 +71,7 @@ http://k9mail.googlecode.com/
     <string name="read_attachment_desc">Разрешать этой программе читать вложения электронной почты.</string>
     <string name="read_messages_label">Читать письма</string>
     <string name="read_messages_desc">Разрешать этой программе читать ваши письма.</string>
-    <string name="delete_messages_label">Унитожать письма</string>
+    <string name="delete_messages_label">Уничтожать письма</string>
     <string name="delete_messages_desc">Разрешать этой программе уничтожать ваши письма.</string>
 
     <string name="about_title_fmt">О программе <xliff:g id="app_name">%s</xliff:g></string>
@@ -124,7 +124,7 @@ http://k9mail.googlecode.com/
     <string name="send_messages_action">Отправить сообщения</string>
     <string name="list_folders_action">Список папок</string>
     <string name="refresh_folders_action">Обновить список папок</string>
-    <string name="filter_folders_action">Найти дирректорию</string>
+    <string name="filter_folders_action">Найти папку</string>
     <string name="mark_all_as_read_action">Отметить все сообщения как прочитанные</string>
     <string name="add_account_action">Добавить адрес</string>
     <string name="compose_action">Написать новое письмо</string>
@@ -141,7 +141,7 @@ http://k9mail.googlecode.com/
     <string name="accounts_action">Учётные записи</string>
     <string name="mark_as_read_action">Отметить как прочитанное</string>
     <string name="send_alternate_action">Переслать (альтернат.)</string>
-    <string name="send_alternate_chooser_title">Выберать отправителя</string>
+    <string name="send_alternate_chooser_title">Выбрать отправителя</string>
 
     <string name="mark_all_as_read_dlg_title">Отметить все сообщения как прочитанные</string>
     <string name="mark_all_as_read_dlg_instructions_fmt">Отметить все сообщения в \'<xliff:g id="folder">%s</xliff:g>\' как прочитанные?  (включая
@@ -172,7 +172,7 @@ http://k9mail.googlecode.com/
 
     <string name="general_no_subject">(Без темы)</string> <!-- Shown in place of the subject when a message has no subject. Showing this in parentheses is customary. -->
     <string name="general_no_date">Нет даты</string>
-    <string name="general_no_sender">Отправитель отсуствует</string>
+    <string name="general_no_sender">Отправитель отсутствует</string>
     <string name="status_loading">Загрузка</string>
     <string name="status_loading_more">Загрузка сообщений\u2026</string>
     <string name="status_network_error">Ошибка при соединении</string>
@@ -267,7 +267,7 @@ http://k9mail.googlecode.com/
     <string name="message_view_status_attachment_saved">Вложение сохранено на карту SD под именем <xliff:g id="filename">%s</xliff:g>.</string>
     <string name="message_view_status_attachment_not_saved">Не удалось сохранить вложение на карту SD.</string>
     <string name="message_view_show_pictures_action">Показать картинки</string>
-    <string name="message_view_show_message_action">Показать мообщение</string>
+    <string name="message_view_show_message_action">Показать сообщение</string>
     <string name="message_view_show_attachments_action">Показать вложение</string>
     <string name="message_view_show_more_attachments_action">Далее&#8230;</string>
     <string name="message_view_fetching_attachment_toast">Загрузка вложения.</string>
@@ -537,7 +537,7 @@ http://k9mail.googlecode.com/
     <string name="account_settings_reply_after_quote_summary">Располагать цитату выше ответа.</string>
 
     <string name="account_settings_strip_signature_label">Отбросить подпись в цитируемом сообщении</string>
-    <string name="account_settings_strip_signature_summary">При ответет на сообщение подпись в цитируемом сообщении будет отброшена</string>
+    <string name="account_settings_strip_signature_summary">При ответе на сообщение подпись в цитируемом сообщении будет отброшена</string>
 
     <string name="account_settings_message_format_label">Формат сообщения</string>
     <string name="account_settings_message_format_text">Обычный текст (изображения и форматирование не сохраняется)</string>
@@ -708,11 +708,11 @@ http://k9mail.googlecode.com/
     <string name="manage_identities_remove_action">Удалить</string>
 
     <string name="edit_identity_description_label">Описание личности</string>
-    <string name="edit_identity_description_hint">(Необязательныо)</string>
+    <string name="edit_identity_description_hint">(Необязательно)</string>
     <string name="edit_identity_name_label">Ваше имя</string>
-    <string name="edit_identity_name_hint">(Необязательныо)</string>
+    <string name="edit_identity_name_hint">(Необязательно)</string>
     <string name="edit_identity_email_label">Адрес электронной почты</string>
-    <string name="edit_identity_email_hint">(Обязательный)</string>
+    <string name="edit_identity_email_hint">(Обязательно)</string>
     <string name="edit_identity_reply_to_label">Отвечать на адрес</string>
     <string name="edit_identity_reply_to_hint">(Необязательно)</string>
     <string name="edit_identity_signature_label">Подпись</string>
@@ -767,7 +767,7 @@ http://k9mail.googlecode.com/
     <string name="provider_note_auonejp">Если вы хотите использовать POP3 для данного поставщика, вы должны разрешить использовать IMAP или POP3 на странице настроек вашей почты.</string>
     <string name="provider_note_naver">Если вы хотите использовать IMAP или POP3 для данного поставщика, вы должны разрешить использование IMAP или POP3 на странице настроек почты Naver.</string>
     <string name="provider_note_hanmail">Если вы хотите использовать IMAP или POP3 для данного поставщика, вы должны разрешить использование IMAP или POP3 на странице настроек почты Hanmail(Daum).</string>
-    <string name="provider_note_paran">Если вы хотите использовать IMAP или POP3 для данного поставщика, вы должны	разрешить использование IMAP или POP3 на странице настроек почты Paran.</string>
+    <string name="provider_note_paran">Если вы хотите использовать IMAP или POP3 для данного поставщика, вы должны разрешить использование IMAP или POP3 на странице настроек почты Paran.</string>
     <string name="provider_note_nate">Если вы хотите использовать IMAP или POP3 для данного поставщика, вы должны разрешить использование IMAP или POP3 на странице настроек почты Nate.</string>
 
     <string name="account_setup_failed_dlg_invalid_certificate_title">Сертификат не признан</string>
@@ -828,7 +828,7 @@ http://k9mail.googlecode.com/
     <string name="background_ops_auto_sync">Когда \'Фоновые данные\' и \'Автосинхронизация\' включены</string>
     <string name="background_ops_auto_sync_only">Когда выбрана \'Автосинхронизация\'</string>
 
-    <string name="no_message_seletected_toast">Никаких сообщений не выбранно</string>
+    <string name="no_message_seletected_toast">Нет выбранных сообщений</string>
 
     <string name="date_format_label">Формат даты</string>
     <!--
@@ -916,12 +916,12 @@ http://k9mail.googlecode.com/
 
     <string name="font_size_message_list">Список сообщений</string>
     <string name="font_size_message_list_subject">Тема</string>
-    <string name="font_size_message_list_sender">Отпрвитель</string>
+    <string name="font_size_message_list_sender">Отправитель</string>
     <string name="font_size_message_list_date">Дата</string>
     <string name="font_size_message_list_preview">Предпросмотр</string>
 
     <string name="font_size_message_view">Сообщения</string>
-    <string name="font_size_message_view_sender">отправитель</string>
+    <string name="font_size_message_view_sender">Отправитель</string>
     <string name="font_size_message_view_to">Кому</string>
     <string name="font_size_message_view_cc">Скрытая копия</string>
     <string name="font_size_message_view_additional_headers">дополнительные заголовки</string>
@@ -933,15 +933,15 @@ http://k9mail.googlecode.com/
     <string name="font_size_message_compose">Поле сообщения</string>
     <string name="font_size_message_compose_input">Поля ввода текста</string>
 
-    <string name="font_size_tiniest">Самый крочшечный</string>
+    <string name="font_size_tiniest">Наименьший</string>
     <string name="font_size_tiny">Крошечный</string>
-    <string name="font_size_smaller">Еще меньше</string>
+    <string name="font_size_smaller">Мелкий</string>
     <string name="font_size_small">Маленький</string>
     <string name="font_size_medium">Средний</string>
     <string name="font_size_large">Большой</string>
     <string name="font_size_larger">Наибольший</string>
 
-    <string name="font_size_webview_smaller">Крошечный</string>
+    <string name="font_size_webview_smaller">Мелкий</string>
     <string name="font_size_webview_small">Маленький</string>
     <string name="font_size_webview_normal">Нормальный</string>
     <string name="font_size_webview_large">Большой</string>
@@ -993,6 +993,7 @@ http://k9mail.googlecode.com/
     <string name="dialog_confirm_spam_title">Подтвердите перенос в папку Спам</string>
     <plurals name="dialog_confirm_spam_message">
         <item quantity="one">Вы действительно хотите переместить сообщение в папку Спам?</item>
+        <item quantity="few">Вы действительно хотите переместить <xliff:g id="message_count">%1$d</xliff:g> сообщения в папку Спам?</item>
         <item quantity="other">Вы действительно хотите переместить <xliff:g id="message_count">%1$d</xliff:g> сообщений в папку Спам?</item>
 <!--
   Translators:
